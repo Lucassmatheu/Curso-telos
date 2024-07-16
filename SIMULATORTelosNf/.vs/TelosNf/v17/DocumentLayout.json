@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\TelosNf\\",
+  "WorkspaceRootPath": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\SIMULATORTelosNf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09ED4FF9-D5A4-4A5E-9C86-1D174DD7D837}|TelosNf.njsproj|C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\TelosNf\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{09ED4FF9-D5A4-4A5E-9C86-1D174DD7D837}|TelosNf.njsproj|C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\SIMULATORTelosNf\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{09ED4FF9-D5A4-4A5E-9C86-1D174DD7D837}|TelosNf.njsproj|solutionrelative:app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "app.js",
-              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\TelosNf\\app.js",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\SIMULATORTelosNf\\app.js",
               "RelativeDocumentMoniker": "app.js",
-              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\TelosNf\\app.js",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\SIMULATORTelosNf\\app.js",
               "RelativeToolTip": "app.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAcAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAF4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-07-04T23:42:57.914Z",
               "EditorCaption": ""

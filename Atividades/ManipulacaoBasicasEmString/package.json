@@ -1,0 +1,14 @@
+{
+  "name": "manipulacao-basicas-em-string",
+  "version": "0.0.0",
+  "description": "ManipulacaoBasicasEmString",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {
+  }
+}

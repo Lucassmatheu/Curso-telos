@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ManipulaçãoDeArraysComFunçõesDeOrdemSuperior", "ManipulaçãoDeArraysComFunçõesDeOrdemSuperior.njsproj", "{96D111C3-3130-4B25-85A8-C7A7801BC64E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96D111C3-3130-4B25-85A8-C7A7801BC64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D111C3-3130-4B25-85A8-C7A7801BC64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D111C3-3130-4B25-85A8-C7A7801BC64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D111C3-3130-4B25-85A8-C7A7801BC64E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CAF3880-71F8-4DC6-8AAE-9B9E5E5D866C}
+	EndGlobalSection
+EndGlobal

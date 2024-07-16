@@ -1,0 +1,14 @@
+﻿{
+  "name": "calculadora-com-opera--es-b-sicas-e-fun--es-avan-adas",
+  "version": "0.0.0",
+  "description": "Calculadora com Operações Básicas e Funções Avançadas",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {
+  }
+}
