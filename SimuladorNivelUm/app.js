@@ -1,3 +1,4 @@
+// Dados de exemplo fornecidos pelo governo
 const dados = `
 [
     {"orgao":"MEC","data":"01/01/2024","valor":500.00,"status":"sucesso"},
@@ -12,13 +13,14 @@ const dados = `
     {"orgao":"MEC","data":"22/01/2024","valor":1100.00,"status":"falha","motivo":"falta de verba"}
 ]
 `;
-
+// Parse dos dados
 const repasses = JSON.parse(dados);
 
+// História de Usuário 1: Exibir a quantidade total de repasses
 const totalRepasses = repasses.length;
-console.log(`Total de repasses processados: ${totalRepasses}`);
+console.log(`\nTotal de repasses processados: ${totalRepasses}`);
 
-
+// História de Usuário 2: Analisar transações por status
 function analisarRepasses(repasses) {
   const sucesso = repasses.filter((rep) => rep.status === "sucesso");
   const falha = repasses.filter((rep) => rep.status === "falha");
@@ -71,16 +73,16 @@ function analisarRepasses(repasses) {
 
 const { resumoSucesso, resumoFalha } = analisarRepasses(repasses);
 
+// Exibir resumo dos repasses bem-sucedidos
 console.log("\nResumo dos repasses bem-sucedidos:");
 console.log(
-  `Quantidade total de repasses bem-sucedidos: ${resumoSucesso.totalSucesso}`
+  `\nQuantidade total de repasses bem-sucedidos: ${resumoSucesso.totalSucesso}`
 );
-console.log("Quantidade total de repasses bem-sucedidos por órgão:");
+console.log("\nQuantidade total de repasses bem-sucedidos por órgão:");
 Object.keys(resumoSucesso.totalSucessoOrgao).forEach((orgao) => {
   console.log(`${orgao}: ${resumoSucesso.totalSucessoOrgao[orgao]}`);
 });
-console.log(
-  `Valor total de repasses bem-sucedidos: ${resumoSucesso.valorTotalSucesso}`
+console.log(`\nValor total de repasses bem-sucedidos: ${resumoSucesso.valorTotalSucesso}`
 );
 console.log("Valor total de repasses bem-sucedidos por órgão:");
 Object.keys(resumoSucesso.valorTotalSucessoOrgao).forEach((orgao) => {
@@ -89,9 +91,9 @@ Object.keys(resumoSucesso.valorTotalSucessoOrgao).forEach((orgao) => {
 
 console.log("\nResumo dos repasses com falha:");
 console.log(
-  `Quantidade total de repasses com falha: ${resumoFalha.totalFalha}`
+  `\nQuantidade total de repasses com falha: ${resumoFalha.totalFalha}`
 );
-console.log("Quantidade total de repasses com falha por órgão:");
+console.log("\nQuantidade total de repasses com falha por órgão:");
 Object.keys(resumoFalha.totalFalhaOrgao).forEach((orgao) => {
   console.log(`${orgao}: ${resumoFalha.totalFalhaOrgao[orgao]}`);
 });
@@ -99,14 +101,12 @@ console.log("Quantidade total de repasses com falha por motivo:");
 Object.keys(resumoFalha.totalFalhaMotivo).forEach((motivo) => {
   console.log(`${motivo}: ${resumoFalha.totalFalhaMotivo[motivo]}`);
 });
-console.log(
-  `Valor total de repasses com falha: ${resumoFalha.valorTotalFalha}`
-);
-console.log("Valor total de repasses com falha por órgão:");
+console.log(`\nValor total de repasses com falha: ${resumoFalha.valorTotalFalha}`);
+console.log("\nValor total de repasses com falha por órgão:");
 Object.keys(resumoFalha.valorTotalFalhaOrgao).forEach((orgao) => {
   console.log(`${orgao}: ${resumoFalha.valorTotalFalhaOrgao[orgao]}`);
 });
-console.log("Valor total de repasses com falha por motivo:");
+console.log("\nValor total de repasses com falha por motivo:");
 Object.keys(resumoFalha.valorTotalFalhaMotivo).forEach((motivo) => {
   console.log(`${motivo}: ${resumoFalha.valorTotalFalhaMotivo[motivo]}`);
 });
