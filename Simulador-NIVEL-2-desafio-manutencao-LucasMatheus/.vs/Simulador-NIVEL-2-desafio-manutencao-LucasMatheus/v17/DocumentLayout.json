@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB805C57-FCB0-4296-AD6B-4C90B9CBFE94}|Simulador-NIVEL-2-desafio-manutencao-LucasMatheus.esproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\curso telos\\simulador-nivel-2-desafio-manutencao-lucasmatheus\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB805C57-FCB0-4296-AD6B-4C90B9CBFE94}|Simulador-NIVEL-2-desafio-manutencao-LucasMatheus.esproj|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\CodigosFontes\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodigosFontes\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB805C57-FCB0-4296-AD6B-4C90B9CBFE94}|Simulador-NIVEL-2-desafio-manutencao-LucasMatheus.esproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\curso telos\\simulador-nivel-2-desafio-manutencao-lucasmatheus\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{EB805C57-FCB0-4296-AD6B-4C90B9CBFE94}|Simulador-NIVEL-2-desafio-manutencao-LucasMatheus.esproj|solutionrelative:index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\CodigosFontes\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodigosFontes\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB805C57-FCB0-4296-AD6B-4C90B9CBFE94}|Simulador-NIVEL-2-desafio-manutencao-LucasMatheus.esproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\curso telos\\simulador-nivel-2-desafio-manutencao-lucasmatheus\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{EB805C57-FCB0-4296-AD6B-4C90B9CBFE94}|Simulador-NIVEL-2-desafio-manutencao-LucasMatheus.esproj|solutionrelative:styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\CodigosFontes\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodigosFontes\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\app.js",
+              "RelativeDocumentMoniker": "app.js",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\app.js",
+              "RelativeToolTip": "app.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-22T22:49:04.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "index.js",
-              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\index.js",
-              "RelativeDocumentMoniker": "index.js",
-              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\index.js",
-              "RelativeToolTip": "index.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA7AAAA",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\CodigosFontes\\index.js",
+              "RelativeDocumentMoniker": "CodigosFontes\\index.js",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\CodigosFontes\\index.js",
+              "RelativeToolTip": "CodigosFontes\\index.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-08-14T19:21:49.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\index.html",
-              "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\index.html",
-              "RelativeToolTip": "index.html",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\CodigosFontes\\index.html",
+              "RelativeDocumentMoniker": "CodigosFontes\\index.html",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\CodigosFontes\\index.html",
+              "RelativeToolTip": "CodigosFontes\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-08-07T19:23:02.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\styles.css",
-              "RelativeDocumentMoniker": "styles.css",
-              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\styles.css",
-              "RelativeToolTip": "styles.css",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAIwGIAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\CodigosFontes\\styles.css",
+              "RelativeDocumentMoniker": "CodigosFontes\\styles.css",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Curso telos\\Simulador-NIVEL-2-desafio-manutencao-LucasMatheus\\CodigosFontes\\styles.css",
+              "RelativeToolTip": "CodigosFontes\\styles.css",
+              "ViewState": "AQIAACwAAAAAAAAAAAAQwEYAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-08-07T19:22:03.735Z",
               "EditorCaption": ""

@@ -75,24 +75,24 @@ main section {
 
 /* Estiliza o rodapé */
 footer {
-    text-align: center; /* Alinha o texto ao centro */
-    margin-top: 20px; /* Margem superior */
+    text-align: center; 
+    margin-top: 20px; 
 }
 
 /* História de Usuário 2: Responsividade e Design Acessível */
 /* Estilos para telas menores (responsividade) */
 @media (max-width: 768px) {
     nav ul {
-        flex-direction: column; /* Empilha os itens da lista verticalmente */
-        align-items: center; /* Alinha os itens ao centro */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .banner {
-        padding: 20px; /* Reduz o espaçamento interno do banner em telas menores */
+        padding: 20px; /
     }
 
     main section {
-        margin: 10px 0; /* Reduz a margem entre as seções em telas menores */
-        padding: 15px; /* Reduz o espaçamento interno das seções em telas menores */
+        margin: 10px 0; 
+        padding: 15px; 
     }
 }
