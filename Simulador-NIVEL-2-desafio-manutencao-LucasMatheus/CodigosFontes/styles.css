@@ -3,32 +3,32 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos nas dimensões do elemento */
+    box-sizing: border-box; 
 }
 
 /* História de Usuário 2: Responsividade e Design Acessível */
 /* Estiliza o corpo da página */
 body {
-    font-family: Arial, sans-serif; /* Define a fonte principal do site */
-    line-height: 1.6; /* Define o espaçamento entre linhas */
-    background-color: #f4f4f4; /* Cor de fundo da página */
-    color: #333; /* Cor do texto principal */
-    padding: 20px; /* Espaçamento interno ao redor da página */
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    background-color: #f4f4f4; 
+    color: #333; 
+    padding: 20px; 
 }
 
 /* Estiliza o cabeçalho do site */
 header {
-    background-color: #333; /* Cor de fundo do cabeçalho */
-    color: #fff; /* Cor do texto do cabeçalho */
-    padding: 10px 0; /* Espaçamento interno */
-    text-align: center; /* Alinha o texto ao centro */
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 0; 
+    text-align: center; 
 }
 
 /* Estiliza a navegação do cabeçalho */
 nav ul {
-    list-style: none; /* Remove marcadores de lista */
-    display: flex; /* Exibe os itens em linha */
-    justify-content: center; /* Centraliza os itens da lista */
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
 }
 
     nav ul li {
@@ -36,41 +36,41 @@ nav ul {
     }
 
         nav ul li a {
-            color: #fff; /* Cor do texto dos links */
-            text-decoration: none; /* Remove a sublinhado dos links */
+            color: #fff; 
+            text-decoration: none; 
         }
 
 /* Estiliza a seção de banner */
 .banner {
-    background-color: #007bff; /* Cor de fundo do banner */
-    color: white; /* Cor do texto no banner */
-    padding: 40px; /* Espaçamento interno */
-    text-align: center; /* Alinha o texto ao centro */
-    margin: 20px 0; /* Espaçamento externo (margem) ao redor do banner */
+    background-color: #007bff; 
+    color: white; 
+    padding: 40px; 
+    text-align: center; 
+    margin: 20px 0; 
 }
 
 /* Estiliza o botão */
 button {
-    padding: 10px 20px; /* Espaçamento interno do botão */
-    margin-top: 20px; /* Margem superior */
-    border: none; /* Remove borda */
-    background-color: #28a745; /* Cor de fundo do botão */
-    color: white; /* Cor do texto do botão */
-    cursor: pointer; /* Define o cursor como uma mão ao passar sobre o botão */
+    padding: 10px 20px; 
+    margin-top: 20px; 
+    border: none; 
+    background-color: #28a745; 
+    color: white; 
+    cursor: pointer; 
 }
 
     /* Estilo para o botão ao passar o mouse sobre ele */
     button:hover {
-        background-color: #218838; /* Cor de fundo do botão ao ser "hovered" */
+        background-color: #218838; 
     }
 
 /* Estiliza as seções do conteúdo principal */
 main section {
-    margin: 20px 0; /* Margem entre as seções */
-    padding: 20px; /* Espaçamento interno */
-    background-color: white; /* Cor de fundo das seções */
-    border-radius: 5px; /* Arredonda os cantos */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ao redor das seções */
+    margin: 20px 0; 
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 5px; /
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 /* Estiliza o rodapé */
@@ -88,7 +88,7 @@ footer {
     }
 
     .banner {
-        padding: 20px; /
+        padding: 20px; 
     }
 
     main section {
