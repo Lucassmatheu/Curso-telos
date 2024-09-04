@@ -1,0 +1,127 @@
+Enter password: ********
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 13
+Server version: 8.0.39 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2024, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+4 rows in set (0.00 sec)
+
+mysql> mysql -u root -p
+    -> CREATE DATABASE biblioteca_telos;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mysql -u root -p
+CREATE DATABASE biblioteca_telos' at line 1
+mysql> CREATE DATABASE biblioteca_telos;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> USE biblioteca_telos;
+Database changed
+mysql> CREATE DATABASE biblioteca_telos;
+ERROR 1007 (HY000): Can't create database 'biblioteca_telos'; database exists
+mysql> USE biblioteca_telos;
+Database changed
+mysql> DROP DATABASE biblioteca_telos;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> CREATE DATABASE biblioteca_telos;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> USE biblioteca_telos;
+Database changed
+mysql> CREATE TABLE Books (
+    ->     book_id INT AUTO_INCREMENT PRIMARY KEY,
+    ->     title VARCHAR(255) NOT NULL,
+    ->     author VARCHAR(255) NOT NULL,
+    ->     genre VARCHAR(100),
+    ->     published_year INT
+    -> );
+Query OK, 0 rows affected (0.15 sec)
+
+mysql> CREATE TABLE Users (
+    ->     user_id INT AUTO_INCREMENT PRIMARY KEY,
+    ->     name VARCHAR(255) NOT NULL,
+    ->     email VARCHAR(255) NOT NULL
+    -> );
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> CREATE TABLE Loans (
+    ->     loan_id INT AUTO_INCREMENT PRIMARY KEY,
+    ->     book_id INT,
+    ->     user_id INT,
+    ->     loan_date DATE NOT NULL,
+    ->     return_date DATE,
+    ->     FOREIGN KEY (book_id) REFERENCES Books(book_id),
+    ->     FOREIGN KEY (user_id) REFERENCES Users(user_id)
+    -> );
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> INSERT INTO Books (title, author, genre, published_year)
+    -> VALUES ('A Song of Ice and Fire', 'George R. R. Martin', 'Fantasy', 1996);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> INSERT INTO Users (name, email)
+    -> VALUES ('Jane Smith', 'janesmith@example.com'),
+    ->        ('Alice Johnson', 'alicej@example.com');
+Query OK, 2 rows affected (0.00 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> INSERT INTO Loans (book_id, user_id, loan_date)
+    -> VALUES (1, 1, CURDATE()), -- Empréstimo do primeiro livro pelo primeiro usuário
+    ->        (1, 2, '2024-08-31'); -- Outro empréstimo do mesmo livro por outro usuário
+Query OK, 2 rows affected (0.00 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql>
+mysql> SELECT Books.title, Users.name, Loans.loan_date
+    -> FROM Loans
+    -> JOIN Books ON Loans.book_id = Books.book_id
+    -> JOIN Users ON Loans.user_id = Users.user_id
+    -> WHERE Loans.return_date IS NULL;
++------------------------+---------------+------------+
+| title                  | name          | loan_date  |
++------------------------+---------------+------------+
+| A Song of Ice and Fire | Jane Smith    | 2024-09-04 |
+| A Song of Ice and Fire | Alice Johnson | 2024-08-31 |
++------------------------+---------------+------------+
+2 rows in set (0.00 sec)
+
+mysql> UPDATE Loans
+    -> SET return_date = CURDATE()
+    -> WHERE loan_id = 1;  -- Atualizando o empréstimo específico
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT title
+    -> FROM Books
+    -> WHERE book_id NOT IN (SELECT book_id FROM Loans WHERE return_date IS NULL);
+Empty set (0.00 sec)
+
+mysql> SELECT Users.name, COUNT(Loans.loan_id) AS total_loans
+    -> FROM Users
+    -> JOIN Loans ON Users.user_id = Loans.user_id
+    -> GROUP BY Users.name
+    -> ORDER BY total_loans DESC;
++---------------+-------------+
+| name          | total_loans |
++---------------+-------------+
+| Jane Smith    |           1 |
+| Alice Johnson |           1 |
++---------------+-------------+
+2 rows in set (0.00 sec)
+
+mysql>
