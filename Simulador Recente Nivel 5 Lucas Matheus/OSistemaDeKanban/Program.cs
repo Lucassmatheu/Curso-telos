@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class Program
 {
-   
+    // Listas de tarefas
     static List<string> aFazer = new List<string>();
     static List<string> emProgresso = new List<string>();
     static List<string> concluido = new List<string>();
@@ -36,7 +36,7 @@ class Program
         }
     }
 
-    
+    // Método para exibir o menu
     static void ExibirMenu()
     {
         Console.WriteLine("1 - Adicionar nova tarefa");
@@ -49,10 +49,10 @@ class Program
     // Método para adicionar nova tarefa
     static void AdicionarTarefa()
     {
-        Console.Write("Digite o nome da nova tarefa: ");
+        Console.Write("\nDigite o nome da nova tarefa: ");
         string tarefa = Console.ReadLine();
         aFazer.Add(tarefa);
-        Console.WriteLine("Tarefa adicionada com sucesso!");
+        Console.WriteLine("\nTarefa adicionada com sucesso!");
     }
 
     // Método para exibir as tarefas
@@ -73,7 +73,7 @@ class Program
     {
         if (lista.Count == 0)
         {
-            Console.WriteLine("Nenhuma tarefa");
+            Console.WriteLine("\nNenhuma tarefa");
         }
         else
         {
@@ -87,10 +87,11 @@ class Program
     // Método para mover tarefas
     static void MoverTarefa()
     {
-        Console.WriteLine("Escolha a lista da qual deseja mover a tarefa:");
-        Console.WriteLine("1 - A Fazer");
-        Console.WriteLine("2 - Em Progresso");
-        Console.WriteLine("3 - Concluído");
+        Console.WriteLine("\nEscolha a lista da qual deseja mover a tarefa:");
+        Console.WriteLine("\n1 - A Fazer -> Em Progresso");
+        Console.WriteLine("\n2 - Em Progresso -> Concluído");
+        Console.WriteLine("\n3 - Concluído -> Em Progresso");
+        Console.WriteLine("\n4 - A Fazer -> Concluído"); // Nova opção
         int origem = int.Parse(Console.ReadLine());
 
         List<string> listaOrigem = null;
@@ -110,24 +111,28 @@ class Program
                 listaOrigem = concluido;
                 listaDestino = emProgresso;
                 break;
+            case 4:
+                listaOrigem = aFazer;
+                listaDestino = concluido;
+                break;
             default:
-                Console.WriteLine("Opção inválida.");
+                Console.WriteLine("\nOpção inválida.");
                 return;
         }
 
         if (listaOrigem.Count == 0)
         {
-            Console.WriteLine(" Não há tarefas para mover. ");
+            Console.WriteLine("\nNão há tarefas para mover.");
             return;
         }
 
-        Console.WriteLine("Escolha o número da tarefa que deseja mover:");
+        Console.WriteLine("\nEscolha o número da tarefa que deseja mover:");
         ExibirLista(listaOrigem);
         int indiceTarefa = int.Parse(Console.ReadLine()) - 1;
 
         if (indiceTarefa < 0 || indiceTarefa >= listaOrigem.Count)
         {
-            Console.WriteLine("Número inválido.");
+            Console.WriteLine("\nNúmero inválido.");
             return;
         }
 
@@ -136,6 +141,6 @@ class Program
         listaOrigem.RemoveAt(indiceTarefa);
         listaDestino.Add(tarefa);
 
-        Console.WriteLine("Tarefa movida com sucesso!");
+        Console.WriteLine("\nTarefa movida com sucesso!");
     }
 }
