@@ -1,0 +1,14 @@
+C:\Users\lucas\source\repos\OSistemaDeKanban\OSistemaDeKanban\bin\Debug\OSistemaDeKanban.exe.config
+C:\Users\lucas\source\repos\OSistemaDeKanban\OSistemaDeKanban\bin\Debug\OSistemaDeKanban.exe
+C:\Users\lucas\source\repos\OSistemaDeKanban\OSistemaDeKanban\bin\Debug\OSistemaDeKanban.pdb
+C:\Users\lucas\source\repos\OSistemaDeKanban\OSistemaDeKanban\obj\Debug\OSistemaDeKanban.csproj.AssemblyReference.cache
+C:\Users\lucas\source\repos\OSistemaDeKanban\OSistemaDeKanban\obj\Debug\OSistemaDeKanban.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\OSistemaDeKanban\OSistemaDeKanban\obj\Debug\OSistemaDeKanban.exe
+C:\Users\lucas\source\repos\OSistemaDeKanban\OSistemaDeKanban\obj\Debug\OSistemaDeKanban.pdb
+C:\Users\lucas\OneDrive\Documentos\GitHub\Curso-telos\Simulador Recente Nivel 5 Lucas Matheus\OSistemaDeKanban\bin\Debug\OSistemaDeKanban.exe.config
+C:\Users\lucas\OneDrive\Documentos\GitHub\Curso-telos\Simulador Recente Nivel 5 Lucas Matheus\OSistemaDeKanban\bin\Debug\OSistemaDeKanban.exe
+C:\Users\lucas\OneDrive\Documentos\GitHub\Curso-telos\Simulador Recente Nivel 5 Lucas Matheus\OSistemaDeKanban\bin\Debug\OSistemaDeKanban.pdb
+C:\Users\lucas\OneDrive\Documentos\GitHub\Curso-telos\Simulador Recente Nivel 5 Lucas Matheus\OSistemaDeKanban\obj\Debug\OSistemaDeKanban.csproj.AssemblyReference.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\Curso-telos\Simulador Recente Nivel 5 Lucas Matheus\OSistemaDeKanban\obj\Debug\OSistemaDeKanban.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\Curso-telos\Simulador Recente Nivel 5 Lucas Matheus\OSistemaDeKanban\obj\Debug\OSistemaDeKanban.exe
+C:\Users\lucas\OneDrive\Documentos\GitHub\Curso-telos\Simulador Recente Nivel 5 Lucas Matheus\OSistemaDeKanban\obj\Debug\OSistemaDeKanban.pdb
