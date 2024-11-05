@@ -37,7 +37,7 @@ func _physics_process(delta: float) -> void:
 		velocity.y *= 0.6
 	
 	# Fall.
-	velocity.y = minf(TERMINAL_VELOCITY, velocity.y + gravity * delta)
+	velocity.y = min(TERMINAL_VELOCITY, velocity.y + gravity * delta)
 
 	var direction := Input.get_axis("move_left", "move_right") * WALK_SPEED
 	velocity.x = move_toward(velocity.x, direction, ACCELERATION_SPEED * delta)
@@ -97,7 +97,7 @@ func try_jump() -> bool:
 		return true
 	return false
 
-#Receber dano
+# Método para receber dano
 func receiveDamage(damage: int) -> void:
 	health -= damage
 	print("O jogador recebeu dano! Saúde restante: ", health)
@@ -113,4 +113,16 @@ func isDead() -> bool:
 # Método para tratar a morte do jogador
 func die() -> void:
 	print("O jogador morreu!")
-	queue_free()  # Remove o jogador da cena, por exemplo
+	call_deferred("reload_scene")  # Chama o método para recarregar a cena
+
+# Método para recarregar a cena atual
+func reload_scene() -> void:
+	get_tree().reload_current_scene()  # Recarrega a cena atual
+
+
+func _on_attack_area_body_entered(body: Node2D) -> void:
+	pass # Replace with function body.
+
+
+func _on_sword_area_body_entered(body: Node2D) -> void:
+	pass # Replace with function body.

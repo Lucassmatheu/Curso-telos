@@ -6,4 +6,7 @@ res://InimigoVoador.tscn
 res://enemy/FireSprit.tscn
 res://enemy/Enemy.tscn
 res://player/player.tscn
-res://enemy/Enemy.gd
+res://enemy/surprise_enemy.tscn
+res://enemy/SurpriseEnemy.gd
+res://player/player.gd
+res://enemy/FlyingEnemy.gd
