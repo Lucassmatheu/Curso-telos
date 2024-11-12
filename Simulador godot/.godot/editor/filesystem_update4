@@ -1,0 +1,10 @@
+res://level.tscn
+res://level/tileset/tileset.tres
+res://InimigoComAtaque.tscn
+res://InimigoVoador.tscn
+res://enemy/FireSprit.tscn
+res://enemy/Enemy.tscn
+res://player/player.tscn
+res://enemy/surprise_enemy.tscn
+res://enemy/FlyingEnemy.gd
+res://enemy/JumpingEnemy.gd
