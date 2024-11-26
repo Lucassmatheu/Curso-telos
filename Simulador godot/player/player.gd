@@ -33,20 +33,21 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_just_pressed("jump"):
 		is_jumping = try_jump()
 	elif Input.is_action_just_released("jump") and velocity.y < 0.0:
-		# The player let go of jump early, reduce vertical momentum.
+		# O jogador soltou o pulo antes, reduzindo a velocidade vertical.
 		velocity.y *= 0.6
 	
-	# Fall.
+	# Queda.
 	velocity.y = min(TERMINAL_VELOCITY, velocity.y + gravity * delta)
 
-	var direction := Input.get_axis("move_left", "move_right") * WALK_SPEED
-	velocity.x = move_toward(velocity.x, direction, ACCELERATION_SPEED * delta)
-
-	if no_move_horizontal_time > 0.0:
-		# After doing a hard fall, don't move for a short time.
+	# Movimento horizontal.
+	if no_move_horizontal_time <= 0.0:
+		var direction := Input.get_axis("move_left", "move_right") * WALK_SPEED
+		velocity.x = move_toward(velocity.x, direction, ACCELERATION_SPEED * delta)
+	else:
 		velocity.x = 0.0
 		no_move_horizontal_time -= delta
 
+	# Animação do movimento horizontal.
 	if not is_zero_approx(velocity.x):
 		if velocity.x > 0.0:
 			sprite.scale.x = 1.0 * sprite_scale
@@ -55,8 +56,7 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 
-	# After applying our motion, update our animation to match.
-	# Calculate falling speed for animation purposes.
+	# Atualizando a animação após o movimento.
 	if velocity.y >= TERMINAL_VELOCITY:
 		falling_fast = true
 		falling_slow = false
@@ -67,7 +67,7 @@ func _physics_process(delta: float) -> void:
 		$AnimationTree["parameters/jump/request"] = AnimationNodeOneShot.ONE_SHOT_REQUEST_FIRE
 
 	if is_on_floor():
-		# Most animations change when we run, land, or take off.
+		# Transições de animação quando o jogador toca no chão.
 		if falling_fast:
 			$AnimationTree["parameters/land_hard/request"] = AnimationNodeOneShot.ONE_SHOT_REQUEST_FIRE
 			no_move_horizontal_time = 0.4
@@ -92,7 +92,7 @@ func _physics_process(delta: float) -> void:
 			$AnimationTree["parameters/state/transition_request"] = States.FLY
 
 func try_jump() -> bool:
-	if is_on_floor():
+	if is_on_floor() and velocity.y >= 0:
 		velocity.y = JUMP_VELOCITY
 		return true
 	return false
@@ -119,8 +119,14 @@ func die() -> void:
 func reload_scene() -> void:
 	get_tree().reload_current_scene()  # Recarrega a cena atual
 
-func _on_attack_area_body_entered(body: Node2D) -> void:
-	pass # Replace with function body.
+# Função para detectar colisões com a área de ataque
+func _on_attack_area_body_entered(_body: Node2D) -> void:
+	# Exemplo de dano ao inimigo
+	if _body.is_in_group("Enemy"):
+		_body.receiveDamage(10)  # Dano do ataque
 
-func _on_sword_area_body_entered(body: Node2D) -> void:
-	pass # Replace with function body.
+# Função para detectar colisões com a área da espada
+func _on_sword_area_body_entered(_body: Node2D) -> void:
+	# Exemplo de dano ao inimigo
+	if _body.is_in_group("Enemy"):
+		_body.receiveDamage(15)  # Dano da espada

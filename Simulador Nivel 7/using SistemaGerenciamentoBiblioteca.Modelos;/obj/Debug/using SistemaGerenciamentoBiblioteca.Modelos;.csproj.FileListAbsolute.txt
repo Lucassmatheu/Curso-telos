@@ -1,0 +1,31 @@
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\using SistemaGerenciamentoBiblioteca.Modelos;.dll.config
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\using SistemaGerenciamentoBiblioteca.Modelos;.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\using SistemaGerenciamentoBiblioteca.Modelos;.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\Antlr3.Runtime.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\Newtonsoft.Json.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\System.Web.Helpers.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\System.Web.Mvc.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\System.Web.Optimization.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\System.Web.Razor.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\System.Web.WebPages.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\System.Web.WebPages.Razor.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\WebGrease.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\Antlr3.Runtime.xml
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\Newtonsoft.Json.xml
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\System.Web.Helpers.xml
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\System.Web.Mvc.xml
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\System.Web.Optimization.xml
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\System.Web.Razor.xml
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\System.Web.WebPages.xml
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\System.Web.WebPages.Razor.xml
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\obj\Debug\using SistemaGerenciamentoBiblioteca.Modelos;.csproj.AssemblyReference.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\obj\Debug\SistemaGerenciamentoBiblioteca.Interface.TelaPrincipal.resources
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\obj\Debug\using SistemaGerenciamentoBiblioteca.Modelos;.csproj.GenerateResource.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\obj\Debug\using SistemaGerenciamentoBiblioteca.Modelos;.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\obj\Debug\using Si.217A435E.Up2Date
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\obj\Debug\using SistemaGerenciamentoBiblioteca.Modelos;.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Simulador Nivel 7\using SistemaGerenciamentoBiblioteca.Modelos;\obj\Debug\using SistemaGerenciamentoBiblioteca.Modelos;.pdb

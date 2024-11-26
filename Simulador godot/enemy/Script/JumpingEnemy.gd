@@ -1,4 +1,4 @@
-class_name JumpingEnemy
+class_name JumpingEnemy 
 extends CharacterBody2D
 
 const States = {
@@ -63,7 +63,11 @@ func chase_player() -> void:
 	move_and_slide()
 
 func move() -> void:
-	velocity.x = WALK_SPEED if _state == States.WALK else 0
+	# Refatorado para evitar o uso do operador ternário
+	if _state == States.WALK:
+		velocity.x = WALK_SPEED
+	else:
+		velocity.x = 0
 	move_and_slide()
 
 func get_new_animation() -> StringName:
