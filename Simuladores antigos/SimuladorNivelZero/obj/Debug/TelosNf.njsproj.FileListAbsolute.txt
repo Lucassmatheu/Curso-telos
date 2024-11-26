@@ -1,6 +1,0 @@
-C:\Users\lucas\OneDrive\Área de Trabalho\Curso telos\TelosNf\obj\Debug\TelosNf.njsproj.AssemblyReference.cache
-C:\Users\lucas\OneDrive\Área de Trabalho\Curso telos\TelosNf\obj\Debug\TelosNf.njsproj.CoreCompileInputs.cache
-C:\Users\lucas\OneDrive\Área de Trabalho\Curso telos\TelosNf\bin\Microsoft.NodejsTools.WebRole.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Curso telos\SIMULATORTelosNf\obj\Debug\TelosNf.njsproj.AssemblyReference.cache
-C:\Users\lucas\OneDrive\Área de Trabalho\Curso telos\SIMULATORTelosNf\obj\Debug\TelosNf.njsproj.CoreCompileInputs.cache
-C:\Users\lucas\OneDrive\Área de Trabalho\Curso telos\SIMULATORTelosNf\bin\Microsoft.NodejsTools.WebRole.dll

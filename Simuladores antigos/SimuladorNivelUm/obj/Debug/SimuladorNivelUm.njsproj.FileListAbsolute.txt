@@ -1,3 +1,0 @@
-C:\Users\lucas\OneDrive\Área de Trabalho\Curso telos\SimuladorNivelUm\obj\Debug\SimuladorNivelUm.njsproj.AssemblyReference.cache
-C:\Users\lucas\OneDrive\Área de Trabalho\Curso telos\SimuladorNivelUm\obj\Debug\SimuladorNivelUm.njsproj.CoreCompileInputs.cache
-C:\Users\lucas\OneDrive\Área de Trabalho\Curso telos\SimuladorNivelUm\bin\Microsoft.NodejsTools.WebRole.dll
