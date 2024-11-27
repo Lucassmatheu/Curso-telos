@@ -1,18 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Simulador Nivel 7\\SimuladorGerenciamentoBiblioteca\\",
+  "WorkspaceRootPath": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BAC74F4-4D5B-4455-9B62-279C4735EC3D}|SimuladorGerenciamentoBiblioteca.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\simulador nivel 7\\simuladorgerenciamentobiblioteca\\interface\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4BAC74F4-4D5B-4455-9B62-279C4735EC3D}|SimuladorGerenciamentoBiblioteca.csproj|solutionrelative:interface\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|c:\\users\\lucas\\desktop\\nova pasta (2)\\simuladorgerenciamentobiblioteca\\interface\\telacadastrolivro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|solutionrelative:interface\\telacadastrolivro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BAC74F4-4D5B-4455-9B62-279C4735EC3D}|SimuladorGerenciamentoBiblioteca.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\simulador nivel 7\\simuladorgerenciamentobiblioteca\\interface\\telaprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BAC74F4-4D5B-4455-9B62-279C4735EC3D}|SimuladorGerenciamentoBiblioteca.csproj|solutionrelative:interface\\telaprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\interface\\TelaCadastroLivro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|solutionrelative:interface\\TelaCadastroLivro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BAC74F4-4D5B-4455-9B62-279C4735EC3D}|SimuladorGerenciamentoBiblioteca.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\simulador nivel 7\\simuladorgerenciamentobiblioteca\\interface\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BAC74F4-4D5B-4455-9B62-279C4735EC3D}|SimuladorGerenciamentoBiblioteca.csproj|solutionrelative:interface\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\modelos\\Livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|solutionrelative:modelos\\Livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\controladores\\ControleLivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|solutionrelative:controladores\\ControleLivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\dados\\RepositorioLivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|solutionrelative:dados\\RepositorioLivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|c:\\users\\lucas\\desktop\\nova pasta (2)\\simuladorgerenciamentobiblioteca\\interface\\telaconsultarlivros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|solutionrelative:interface\\telaconsultarlivros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\interface\\TelaConsultarLivros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|solutionrelative:interface\\TelaConsultarLivros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\interface\\TelaCadastroLivro.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|solutionrelative:interface\\TelaCadastroLivro.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|solutionrelative:Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\Scripts\\WebForms\\GridView.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|solutionrelative:Scripts\\WebForms\\GridView.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|solutionrelative:App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\Global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9479750E-615F-469B-85B5-E464BB14E30E}|SimuladorGerenciamentoBiblioteca.csproj|solutionrelative:Global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,20 +58,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TelaPrincipal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Simulador Nivel 7\\SimuladorGerenciamentoBiblioteca\\Interface\\TelaPrincipal.cs",
-              "RelativeDocumentMoniker": "Interface\\TelaPrincipal.cs",
-              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Simulador Nivel 7\\SimuladorGerenciamentoBiblioteca\\Interface\\TelaPrincipal.cs [Design]",
-              "RelativeToolTip": "Interface\\TelaPrincipal.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T00:17:20.91Z",
-              "EditorCaption": " [Design]"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
@@ -46,28 +70,155 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TelaPrincipal.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Simulador Nivel 7\\SimuladorGerenciamentoBiblioteca\\Interface\\TelaPrincipal.Designer.cs",
-              "RelativeDocumentMoniker": "Interface\\TelaPrincipal.Designer.cs",
-              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Simulador Nivel 7\\SimuladorGerenciamentoBiblioteca\\Interface\\TelaPrincipal.Designer.cs",
-              "RelativeToolTip": "Interface\\TelaPrincipal.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Livro.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\modelos\\Livro.cs",
+              "RelativeDocumentMoniker": "modelos\\Livro.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\modelos\\Livro.cs",
+              "RelativeToolTip": "modelos\\Livro.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T00:05:06.655Z",
+              "WhenOpened": "2024-11-27T16:33:55.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TelaPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Simulador Nivel 7\\SimuladorGerenciamentoBiblioteca\\Interface\\TelaPrincipal.cs",
-              "RelativeDocumentMoniker": "Interface\\TelaPrincipal.cs",
-              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Simulador Nivel 7\\SimuladorGerenciamentoBiblioteca\\Interface\\TelaPrincipal.cs",
-              "RelativeToolTip": "Interface\\TelaPrincipal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "RepositorioLivro.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\dados\\RepositorioLivro.cs",
+              "RelativeDocumentMoniker": "dados\\RepositorioLivro.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\dados\\RepositorioLivro.cs",
+              "RelativeToolTip": "dados\\RepositorioLivro.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAqwMsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T00:04:58.464Z",
+              "WhenOpened": "2024-11-27T16:32:50.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GridView.js",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\Scripts\\WebForms\\GridView.js",
+              "RelativeDocumentMoniker": "Scripts\\WebForms\\GridView.js",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\Scripts\\WebForms\\GridView.js",
+              "RelativeToolTip": "Scripts\\WebForms\\GridView.js",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-27T16:31:38.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:21:39.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Global.asax.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\Global.asax.cs",
+              "RelativeToolTip": "Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:19:16.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TelaCadastroLivro.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\interface\\TelaCadastroLivro.aspx.cs",
+              "RelativeDocumentMoniker": "interface\\TelaCadastroLivro.aspx.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\interface\\TelaCadastroLivro.aspx.cs",
+              "RelativeToolTip": "interface\\TelaCadastroLivro.aspx.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAjwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:15:43.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TelaCadastroLivro.aspx",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\interface\\TelaCadastroLivro.aspx",
+              "RelativeDocumentMoniker": "interface\\TelaCadastroLivro.aspx",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\interface\\TelaCadastroLivro.aspx",
+              "RelativeToolTip": "interface\\TelaCadastroLivro.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-27T16:15:17.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-27T16:12:12.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TelaConsultarLivros.aspx",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\interface\\TelaConsultarLivros.aspx",
+              "RelativeDocumentMoniker": "interface\\TelaConsultarLivros.aspx",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\interface\\TelaConsultarLivros.aspx",
+              "RelativeToolTip": "interface\\TelaConsultarLivros.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-27T16:44:06.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ControleLivro.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\controladores\\ControleLivro.cs",
+              "RelativeDocumentMoniker": "controladores\\ControleLivro.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\controladores\\ControleLivro.cs",
+              "RelativeToolTip": "controladores\\ControleLivro.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAswFwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:34:37.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TelaConsultarLivros.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\interface\\TelaConsultarLivros.aspx.cs",
+              "RelativeDocumentMoniker": "interface\\TelaConsultarLivros.aspx.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\interface\\TelaConsultarLivros.aspx.cs",
+              "RelativeToolTip": "interface\\TelaConsultarLivros.aspx.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwC8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T19:00:24.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TelaCadastroLivro.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\interface\\TelaCadastroLivro.aspx.designer.cs",
+              "RelativeDocumentMoniker": "interface\\TelaCadastroLivro.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\Nova pasta (2)\\SimuladorGerenciamentoBiblioteca\\interface\\TelaCadastroLivro.aspx.designer.cs",
+              "RelativeToolTip": "interface\\TelaCadastroLivro.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwPIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:44:04.417Z",
               "EditorCaption": ""
             }
           ]

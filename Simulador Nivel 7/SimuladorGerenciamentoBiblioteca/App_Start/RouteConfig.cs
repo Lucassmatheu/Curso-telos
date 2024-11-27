@@ -6,13 +6,11 @@ using Microsoft.AspNet.FriendlyUrls;
 
 namespace SimuladorGerenciamentoBiblioteca
 {
-    public static class RouteConfig
+    public class RouteConfig
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            var settings = new FriendlyUrlSettings();
-            settings.AutoRedirectMode = RedirectMode.Permanent;
-            routes.EnableFriendlyUrls(settings);
+            // Não é necessário usar rotas em Web Forms para configurar a página inicial.
         }
     }
 }
