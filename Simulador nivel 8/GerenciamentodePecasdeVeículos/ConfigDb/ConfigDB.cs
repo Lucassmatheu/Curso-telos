@@ -7,7 +7,6 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NHibernate.Cfg;
 using System.Xml;
 using NHConfiguration = NHibernate.Cfg.Configuration;
 using SystemConfiguration = System.Configuration.Configuration;

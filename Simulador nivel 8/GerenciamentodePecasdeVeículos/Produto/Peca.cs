@@ -10,6 +10,8 @@ namespace GerenciamentodePecasdeVeículos.Produto
         public virtual string Categoria { get; set; }
         public virtual decimal PrecoCompra { get; set; }
         public virtual decimal PrecoVenda { get; set; }
+        public virtual int Quantidade { get; set; }
         public virtual string Status { get; set; }
+        public virtual string PecaVendida { get; set; }
     }
 }

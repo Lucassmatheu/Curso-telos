@@ -20,3 +20,5 @@ C:\Users\lucas\OneDrive\Documentos\GitHub\GerenciamentodePecasdeVeículos\obj\De
 C:\Users\lucas\OneDrive\Documentos\GitHub\GerenciamentodePecasdeVeículos\obj\Debug\GerenciamentodePecasdeVeículos.pdb
 C:\Users\lucas\OneDrive\Documentos\GitHub\GerenciamentodePecasdeVeículos\bin\Debug\Mappings\hibernate.cfg.xml
 C:\Users\lucas\OneDrive\Documentos\GitHub\GerenciamentodePecasdeVeículos\bin\Debug\Mappings\Peca.hbm.xml
+C:\Users\lucas\OneDrive\Documentos\GitHub\GerenciamentodePecasdeVeículos\obj\Debug\GerenciamentodePecasdeVeículos.Form1.resources
+C:\Users\lucas\OneDrive\Documentos\GitHub\GerenciamentodePecasdeVeículos\obj\Debug\GerenciamentodePecasdeVeículos.FormVendas.resources
