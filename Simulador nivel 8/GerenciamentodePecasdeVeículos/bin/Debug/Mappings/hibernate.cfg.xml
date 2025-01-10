@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-configuration>
+	<session-factory>
+		<!-- Configuração do banco de dados -->
+		<property name="connection.driver_class">NHibernate.Driver.SqlClientDriver</property>
+		<property name="connection.connection_string">
+			Data Source=PCLUCAS\SQLEXPRESS;Initial Catalog=EstoqueVeiculos;Integrated Security=True;
+		</property>
+		<property name="dialect">NHibernate.Dialect.MsSql2012Dialect</property>
+
+		<!-- Configurações de depuração -->
+		<property name="show_sql">true</property>
+		<property name="format_sql">true</property>
+		
+
+		<!-- Mapeamentos -->
+		<mapping resource="Mappings.Peca.hbm.xml" />
+	</session-factory>
+</hibernate-configuration>

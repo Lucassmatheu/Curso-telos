@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="GerenciamentodePecasdeVeículos" namespace="GerenciamentodePecasdeVeículos.Produto">
+	<class name="Peca" table="Pecas">
+		<id name="Id">
+			<generator class="native" />
+		</id>
+		<property name="Nome" column="Nome" />
+		<property name="Fabricante" column="Fabricante"/>
+		<property name="TipoVeiculo" column="TipoVeiculo" />
+		<property name="Categoria" column="Categoria" />
+		<property name="PrecoCompra" column="PrecoCompra"/>
+		<property name="PrecoVenda" column="PrecoVenda"/>
+		<property name="Status" column="Status"/>
+	</class>
+</hibernate-mapping>
