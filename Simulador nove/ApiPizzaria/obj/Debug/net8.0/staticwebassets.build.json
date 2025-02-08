@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "eVMArUvJuolIrOKSrKBO8qfRg9YGc2jAVmTK1IZ6YMI=",
+  "Source": "ApiPizzaria",
+  "BasePath": "_content/ApiPizzaria",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
