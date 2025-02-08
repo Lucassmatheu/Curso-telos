@@ -1,9 +1,0 @@
-res://level.tscn
-res://level/tileset/tileset.tres
-res://enemy/Script/BossEnemy.gd
-res://InimigoComAtaque.tscn
-res://InimigoVoador.tscn
-res://enemy/FireSprit.tscn
-res://enemy/Enemy.tscn
-res://player/player.tscn
-res://enemy/surprise_enemy.tscn
